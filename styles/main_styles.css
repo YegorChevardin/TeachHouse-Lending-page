@@ -18,6 +18,10 @@
 	font-style: normal;
 }
 
+/*SOCIAL BUTTONS SECTION START*/
+
+/*SOCIAL BUTTONS SECTION END*/
+
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +35,30 @@ body {
 	margin: 0 auto;
 }
 
-.jumbotron {
-	background-color: #4898ed;
-	border-radius: 0;
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Kaushan';
+}
+
+.social-badge {
+	font-size: 1.2em;
+}
+
+.badge-instagram {
+	background-image: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+	color: #fff;
+}
+
+.lead {
+	font-family: Montserrat;
+}
+
+#intro {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	background-color: #007bff;
+	color: #ffffff;
+}
+#intro p:not([class="lead"]) {
+	text-align: left;
 }

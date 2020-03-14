@@ -22,3 +22,16 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0 auto;
+}
+
+.jumbotron {
+	background-color: #4898ed;
+	border-radius: 0;
+}

@@ -32,10 +32,16 @@ html {
 }
 
 body {
+	background-color: #4898ed;
+	color: #ffffff;
 	margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+a {
+	color: #121212;
+}
+
+.kaushan {
 	font-family: 'Kaushan';
 }
 

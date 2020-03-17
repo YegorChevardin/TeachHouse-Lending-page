@@ -117,3 +117,18 @@ a {
 .navbar .collapse .navbar-nav .nav-item.dropdown .dropdown-menu {
 	text-align: center;
 }
+
+#information {
+	background-color: #ffffff;
+	color: #4898ed;
+}
+
+#news h1:first-child {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+#news .col-md-8 {
+	color: #121212;
+}

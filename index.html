@@ -21,29 +21,22 @@
 				</h1>
 				<p class="lead">Клуб разговорного английского</p>
 				<div class="container-fluid">
-					<p>
+					<p class="text-center">
 						Мы - второй разговорный клуб в Никополе.<br/>
 						Почему второй!?<br/>
 						Потому, что нам нужно работать, чтобы стать первым!...
 					</p>
 				</div>
-				<hr class="my-3 bg-light"/>
+				<hr class="my-3"/>
 				<div class="container-fluid">
 					<p>
 						Наши соц. сети:<br/>
 					</p>
+					<!--HERE WILL BE SOME BUTTONS WITH SOCIAL MEDIA-->
 				</div>
-				<div class="container-fluid"
-						<!--HERE WILL BE SOME BUTTONS WITH SOCIAL MEDIA-->
-					</p>
-					<hr class="my-3"/>
-					<p>
-						Наши контакты:<br/>
-					</p>
-				</div>
-				<hr class="my-3 bg-light"/>
+				<hr class="my-3"/>
 				<div class="container-fluid">
-					<p>
+					<p class="text-center">
 						Кликните на здесь, чтобы записатся на наши занятия либо посмотреть наши крусы
 					</p>
 					<div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
@@ -55,7 +48,7 @@
 				</div>
 			</div>
 			<!--NAVBAR SECTION START-->
-			<nav class="navbar navbar-expand-lg navbar-dark">
+			<nav class="navbar navbar-expand-lg navbar-dark position-sticky sticky-top">
 				<a class="navbar-brand" href="#">TeachHouse</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -125,8 +118,10 @@
 					которые школа даже не заиахивалась научить вас!<br/>
 					И это всё на англиском языке!<br/>
 					Ниже вы можете посмотреть наше первое видео You tube:
-					<!--VIDEO SECTION START-->
 				</p>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sXHbvSJ4RPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
 			</div>
 			<hr class="my-3 bg-primary"/>
 			<div class="container-fluid" id="spoken-english">
@@ -198,9 +193,26 @@
 				<h1>
 					Наши курсы
 				</h1>
-				<!-- 21:9 aspect ratio -->
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sXHbvSJ4RPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="card mb-3" style="max-width: 540px;">
+					<div class="row no-gutters">
+						<div class="col-md-4">
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sXHbvSJ4RPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Первая встреча в Монтекристо!</h5>
+								<p class="card-text">
+									This is a wider card with supporting text below as a natural lead-in to additional content.
+									This content is a little bit longer.
+								</p>
+								<div class="card-footer">
+									<button type="submit" class="btn btn-primary btn-block" name="Pay" value="Pay">Купить видео</button>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -216,19 +228,21 @@
 					ул. Ивана Богуна 9<br/>
 					г. Никополь<br/>
 					Украина<br/>
+					Стоимость одного занятия - <span class="badge badge-dark">50 грн.</span>
 				</p>
 				<hr class="my-3"/>
 				<form action="" method="post" autocomplete="off">
 					<div class="form-group">
 						<label for="Yearsold">Укажите ваш возраст</label>
-						<input class="form-control" type="number" id="Yearsold" name="Yearsold" placeholder="Ваш возраст"/>
+						<input class="form-control" type="number" id="Yearsold" name="Yearsold" placeholder="Ваш возраст" required/>
 						<label for="Name">Укажите ваше имя</label>
-						<input class="form-control" type="text" id="Name" name="Name" placeholder="Ваше имя"/>
+						<input class="form-control" type="text" id="Name" name="Name" placeholder="Ваше имя" required/>
 						<label for="Telephone">Укажите ваш номер телефона</label>
-						<input class="form-control" type="tel" id="Telephone" name="Telephone" placeholder="Ваш номер телефона"/>
+						<input class="form-control" type="tel" id="Telephone" name="Telephone" placeholder="Ваш номер телефона" required/>
 						<label for="Datetime">Введите время и дату, на которое хотите записатся</label>
-						<input class="form-control" type="datetime-local" id="Datetime" name="Datetime" placeholder="Время и дата, на которые хотите записатся"/>
+						<input class="form-control" type="datetime-local" id="Datetime" name="Datetime" placeholder="Время и дата, на которые хотите записатся" required/>
 					</div>
+					<button type="submit" class="form-control btn btn-block btn-dark" name="Send" value="Send" id="Send">Записатся на занятия!</button>
 				</form>
 				<hr class="my-3"/>
 				<p class="lead">
@@ -249,7 +263,7 @@
 				<form action="" method="post" autocomplete="on">
 					<div class="checkbox mb-3">
 						<label>
-							<input type="checkbox" value="Download"/> Загрузить
+							<input type="checkbox" id="Download" name="Download" value="Download"/> Загрузить
 						</label>
 					</div>
 					<div class="form-group">
@@ -263,6 +277,19 @@
 			</div>
 		</div>
 		<!--GETINFO SECTION END-->
+		<!--FOOTER SECTION START-->
+		<footer>
+			<div class="container-fluid" id="copyright">
+				<p class="small text-center">
+					© Copyright by<br/>
+					Yegor Chevardin<br/>
+					Andy Fedorchuk<br/>
+					Hrabchuk Veronika<br/>
+					2019 - 2020
+				</p>
+			</div>
+		</footer>
+		<!--FOOTER SECTION END-->
 		<!--SCRIPT SECTION START-->
 		<!--BOOTSTRAP SECTION START-->
 		<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>

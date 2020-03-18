@@ -86,6 +86,7 @@ a {
 	50%{background-position:50% 100%}
 	100%{background-position:50% 0%}
 }
+
 #intro p:not([class="lead"]) {
 	color: #e6e9e9;
 	font-size: 1em;
@@ -102,6 +103,7 @@ a {
 
 .navbar {
 	background-color: #121212;
+	text-align: center;
 }
 
 .navbar-brand {
@@ -110,17 +112,13 @@ a {
 	font-size: 1.6em;
 }
 
-.navbar .collapse .navbar-nav {
-	text-align: center;
-}
-
 .navbar .collapse .navbar-nav .nav-item.dropdown .dropdown-menu {
 	text-align: center;
 }
 
 #information {
 	background-color: #ffffff;
-	color: #4898ed;
+	color: #121212;
 }
 
 #content {
@@ -129,16 +127,32 @@ a {
 	margin-bottom: 0;
 }
 
-#news h1:first-child {
-	margin: 0 auto;
-	text-align: center;
-	margin-bottom: 0.5em;
+#news .col-md-8, #videos .col-md-8 {
+	color: #121212;
 }
 
-#news .col-md-8 {
-	color: #121212;
+#videos iframe {
+	border-radius: unset;
 }
 
 iframe {
 	border-radius: 20px;
+}
+
+#getinfo {
+	margin-bottom: 2em;
+}
+
+#email-us form .checkbox {
+	background-color: #ffffff;
+	text-align: center;
+	color: #121212;
+	padding-top: 0.5em;
+	border-radius: 20px;
+}
+
+footer {
+	width: 100%;
+	background-color: #121212;
+	padding: 0.5em;
 }

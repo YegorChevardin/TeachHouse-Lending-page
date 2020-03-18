@@ -193,11 +193,76 @@
 					</div>
 				</div>
 			</div>
+			<hr class="my-3 bg-light"/>
 			<div class="container-fluid" id="videos">
-
+				<h1>
+					Наши курсы
+				</h1>
+				<!-- 21:9 aspect ratio -->
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sXHbvSJ4RPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
 			</div>
 		</div>
 		<!--CONTENT SECTION END-->
+		<!--GETINFO SECTION START-->
+		<div class="container-fluid" id="getinfo">
+			<div class="container-fluid" id="sing-up">
+				<h1>
+					Записатся на наши занятия
+				</h1>
+				<p class="lead">
+					Занятия проходят на<br/>
+					ул. Ивана Богуна 9<br/>
+					г. Никополь<br/>
+					Украина<br/>
+				</p>
+				<hr class="my-3"/>
+				<form action="" method="post" autocomplete="off">
+					<div class="form-group">
+						<label for="Yearsold">Укажите ваш возраст</label>
+						<input class="form-control" type="number" id="Yearsold" name="Yearsold" placeholder="Ваш возраст"/>
+						<label for="Name">Укажите ваше имя</label>
+						<input class="form-control" type="text" id="Name" name="Name" placeholder="Ваше имя"/>
+						<label for="Telephone">Укажите ваш номер телефона</label>
+						<input class="form-control" type="tel" id="Telephone" name="Telephone" placeholder="Ваш номер телефона"/>
+						<label for="Datetime">Введите время и дату, на которое хотите записатся</label>
+						<input class="form-control" type="datetime-local" id="Datetime" name="Datetime" placeholder="Время и дата, на которые хотите записатся"/>
+					</div>
+				</form>
+				<hr class="my-3"/>
+				<p class="lead">
+					Где мы находимся!?
+				</p>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2692.1167353493015!2d34.381430215281675!3d47.565517098808925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dca3842397d1c1%3A0xa44f527b64f9678a!2z0YPQuy4g0JHQvtCz0YPQvdCwLCA5LCDQndC40LrQvtC_0L7Qu9GMLCDQlNC90LXQv9GA0L7Qv9C10YLRgNC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNTMyMDA!5e0!3m2!1sru!2sua!4v1584538744928!5m2!1sru!2sua" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<hr class="my-3 bg-light"/>
+			<div class="container-fluid" id="email-us">
+				<h1>
+					Отправте нам ваш отзыв!
+				</h1>
+				<p class="lead">
+					Поставте галочку на "Загрузить", для того , чтобы сказать Юлин файл
+				</p>
+				<form action="" method="post" autocomplete="on">
+					<div class="checkbox mb-3">
+						<label>
+							<input type="checkbox" value="Download"/> Загрузить
+						</label>
+					</div>
+					<div class="form-group">
+						<label for="Email">Введите ваш электронный адрес</label>
+						<input type="email" class="form-control" id="Email" name="Email" placeholder="Ваш email"/>
+						<label for="Text">Введите ваш текст</label>
+						<textarea class="form-control" id="Text" name="Text" placeholder="Ваш текст"></textarea>
+					</div>
+					<button class="btn btn-lg btn-dark btn-block" type="submit" id="Send" name="Send">Отправить</button>
+				</form>
+			</div>
+		</div>
+		<!--GETINFO SECTION END-->
 		<!--SCRIPT SECTION START-->
 		<!--BOOTSTRAP SECTION START-->
 		<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
@@ -208,22 +273,6 @@
 		<script type="text/javascript" src="js/particles/particles.min.js"></script>
 		<!--PARTICLES SECTION END-->
 	<script type="text/javascript">
-		/*
-		var prevScrollpos = window.pageYOffset;
-
-		window.onscroll = function() {
-			var currentScrollpos = window.pageYOffset;
-
-			if(currentScrollpos >= 15 * 16) {
-				if(prevScrollpos > currentScrollpos) {
-					document.getElementsByClassName('navbar')[0].style.top = "0";
-				} else {
-					document.getElementsByClassName('navbar')[0].style.top = "-5.1em";
-				}
-
-				prevScrollpos = currentScrollpos;
-			}
-		}*/
 	</script>
 		<!--SCRIPT SECTION END-->
 	</body>

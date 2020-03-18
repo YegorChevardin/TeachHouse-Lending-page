@@ -123,6 +123,12 @@ a {
 	color: #4898ed;
 }
 
+#content {
+	background-color: #333333;
+	padding-bottom: 2em;
+	margin-bottom: 0;
+}
+
 #news h1:first-child {
 	margin: 0 auto;
 	text-align: center;
@@ -131,4 +137,8 @@ a {
 
 #news .col-md-8 {
 	color: #121212;
+}
+
+iframe {
+	border-radius: 20px;
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1ab607-6b00-4cf5-b011-52774d9ecac0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/page-elements/back-to-top-button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main_styles.css" afterDir="false" />
@@ -56,7 +57,9 @@
       <workItem from="1584381497409" duration="4004000" />
       <workItem from="1584465290280" duration="5282000" />
       <workItem from="1584535266522" duration="5044000" />
-      <workItem from="1584546068373" duration="2279000" />
+      <workItem from="1584546068373" duration="2575000" />
+      <workItem from="1584555453157" duration="550000" />
+      <workItem from="1584640585145" duration="6710000" />
     </task>
     <servers />
   </component>
